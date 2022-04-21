@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">JarApp</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <string name="add_tag_button">Add</string>
+    <string name="ok_button">OK</string>
+
+    <!-- Messages -->
+    <string name="fatalError">Fatal Error</string>
+    <string name="warning">Warning</string>
+
+    <!-- Create Activity Elements -->
+    <string name="create_expense_title">Create Expense</string>
+
+    <!-- Expense Activity Elements -->
+    <string name="expense_name">Name</string>
+    <string name="expense_price">Price</string>
+    <string name="expense_tags">Tag(s)</string>
+    <string name="expense_date">Date</string>
+    <string name="expense_time">Time</string>
+    <string name="expense_note">Note</string>
+    <string name="expense_jar">Jar</string>
+    <string name="edit_expense_title">Edit Expense</string>
+
+    <!-- Create jar activity -->
+    <string name="jar_name_title">Name</string>
+    <string name="jar_budget_title">Budget</string>
+    <string name="jar_theme_title">Theme</string>
+    <string name="create_jar_title">Create Jar</string>
+    <string name="create_button">Create</string>
+    <string name="jar_name_input">Name of jar</string>
+    <string name="jar_budget_input">Monthly budget of jar</string>
+    <string-array name="jar_themes">
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>purple</item>
+    </string-array>
+
+    <!-- Edit jar activity -->
+    <string name="edit_jar_title">Edit Jar</string>
+    <string name="save_button">Save</string>
+
+    <!-- Task menu strings -->
+    <string name="add_jar">Add Jar</string>
+
+    <string name="expense_select_tags">Select tags</string>
+    <string name="expense_create_tag">Create tag</string>
+    <string name="tag_list_title">Select tags for the expense</string>
+
+    <!-- Stats Activity Elements -->
+    <string name="back_savings_button">Back</string>
+
+</resources>

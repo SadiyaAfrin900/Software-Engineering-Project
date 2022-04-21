@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <item
+        android:id="@+id/task_menu_add_jar"
+        android:icon="@drawable/ic_add_black_100dp"
+        android:title="@string/add_jar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/task_menu_stats"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="@string/add_jar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/task_see_all_expenses"
+        android:icon="@drawable/ic_all_inclusive_black_24dp"
+        android:title="@string/add_jar"
+        app:showAsAction="always"/>
+</menu>

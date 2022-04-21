@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:id="@+id/jar_stat_list_item_root">
+
+    <TextView
+        android:id="@+id/jar_stat_list_item_jar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAR"
+        android:textSize="32dp"
+        android:paddingBottom="10dp"/>
+
+    <!-- Savings -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Savings: "/>
+        <TextView
+            android:id="@+id/jar_stat_list_item_savings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Savings (0)" />
+    </LinearLayout>
+
+    <!-- number of expenses -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Number of expenses: "/>
+        <TextView
+            android:id="@+id/jar_stat_list_item_num_of_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="num of expenses (1)" />
+    </LinearLayout>
+
+    <!-- average amount per expense -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Average expense: "/>
+
+        <TextView
+            android:id="@+id/jar_stat_list_item_avg_expense_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="avg expense amount (2)" />
+    </LinearLayout>
+</LinearLayout>
